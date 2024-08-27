@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asignación de Mesas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Asignación de Mesas en el Restaurante</h1>
+    <p>Ingrese el número de personas:</p>
+    <input type="number" id="numeroPersonas" min="1" max="4" placeholder="Número de personas">
+    <button onclick="asignarMesa()">Asignar Mesa</button>
+    <div id="mensaje"></div>
+    <h2>Estado de las Mesas:</h2>
+    <ul id="estadoMesas"></ul>
+  </div>
+  
+  <script src="logica.js"></script>
+</body>
+</html>
